@@ -1,0 +1,77 @@
+#bod{
+	width: 50%;
+	background-color: #f4f4f4;
+	text-align: center;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	font-family: "Comic Sans MS",cursive,serif; 
+	}
+a{
+	text-decoration: none;
+	color: grey;
+}
+#land1{
+	height: 50vh;
+	font-size: 1.3rem;
+	padding-top: 26%;
+}
+#land2{
+	display: flex;
+	align-items: center;
+	height: 65vh;
+	padding:5%;
+}
+
+html {
+	scroll-behavior: smooth;
+  } 
+#top{
+	font-size: 2vw;
+	display: flex;
+	align-items: center;
+	height: 100vh;
+}
+.but{
+	border-radius: 35px;
+	font-size: 	1.4vw;
+	background-color: f4f6f6;
+	padding: 20px;
+	border:none;
+} 	
+#bod img
+{
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: cover;
+	
+}
+#top img
+{
+	height: 101.2vh;
+}
+.pics
+{
+	box-shadow: 7px 5px 30px 3px #333;	
+}
+#topbar button
+{
+	font-weight: 10px;
+	font-size: 1.1rem;
+	font-family: "Comic Sans MS",cursive,serif; 
+	color: grey;
+	padding: 14px;
+	margin: 10px 40px;
+	border:none;
+	background-color:RGB(34,34,34);
+}
+
+#topbar{
+	background-color:RGB(34,34,34);
+}
+.fixed-nav #topbar {
+	position: fixed;
+	width: 50%;
+	top:0;
+	z-index: 1;
+  }
